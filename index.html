@@ -4,9 +4,62 @@
         <meta charset="UTF-8">
         <title>ToDo App</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <main class="app-container">
+            <h3 class="text-center">List to do</h3>
+
+            <section class="new-task-container">
+                <form>
+                    <div class="input-group">
+                        <input class="form-control" placeholder="Task's name...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit">Add task</button>
+                        </span>
+                    </div>
+                </form>
+            </section>
+
+            <section class="tasks-container">
+                <ul>
+                    <li>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default toggle-complete-btn" type="submit"><i class="fa fa-check"></i></button>
+                            </span>
+                            <input class="form-control" placeholder="Task's title">
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger delete-task-btn" type="submit"><i class="fa fa-times"></i></button>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default toggle-complete-btn" type="submit"><i class="fa fa-check"></i></button>
+                            </span>
+                            <input class="form-control" placeholder="Task's title">
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger delete-task-btn" type="submit"><i class="fa fa-times"></i></button>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default toggle-complete-btn" type="submit"><i class="fa fa-check"></i></button>
+                            </span>
+                            <input class="form-control" placeholder="Task's title">
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger delete-task-btn" type="submit"><i class="fa fa-times"></i></button>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
         <script src='js.js'></script>
     </body>
 </html>
